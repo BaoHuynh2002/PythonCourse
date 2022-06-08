@@ -1,0 +1,6 @@
+ip = input("Nhap vao mot chuoi: ")
+listword = list(ip.split())
+listword = set(listword)
+length = len(listword)
+newlist = sorted(listword)
+print (f"Output: {newlist}")
